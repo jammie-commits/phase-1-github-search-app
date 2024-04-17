@@ -4,7 +4,7 @@ const userList = document.getElementById('user-list');
 const repoList = document.getElementById('repo-list');
 const searchTypeButton = document.getElementById('search-type-toggle');
 
-const BASE_URL = 'https://api.github.com';
+const BASE_URL = 'https://api.github.com/';
 const ACCEPT_HEADER = 'application/vnd.github.v3+json';
 
 // Default search type
